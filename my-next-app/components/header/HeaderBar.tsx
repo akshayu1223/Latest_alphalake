@@ -28,18 +28,21 @@
 //     </div>
 //   );
 // }
+
 export default function Header() {
   return (
     <div
       className="
         absolute
-        top-[80px]
-        left-[227px]
-        w-[1501px]
-        h-[40px]
-        bg-[#FAFAFA]
-        border-b border-[#1D286733]
-        shadow-[3px_4px_9.6px_-6px_rgba(0,0,0,0.25)]
+    top-[80px]
+    left-[227px]
+    right-0
+    h-[40px]
+    bg-[#FAFAFA]
+    border-b border-[#1D286733]
+    shadow-[3px_4px_9.6px_-6px_rgba(0,0,0,0.25)]
+    flex items-center
+    px-[30px]
       "
     >
       <div

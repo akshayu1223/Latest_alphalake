@@ -831,6 +831,27 @@ export default function ThematicAnalysisBox() {
         overflow-hidden
       "
     >
+      {/* Y-AXIS LABEL — EXACT FIGMA VALUES */}
+<div
+  className="
+    absolute
+    top-[195px] left-[30px]
+    down-[217.63px] right-[1299.11px]
+    w-[129.2837px] h-[19.8898px]
+     font-archivo
+    text-[23.94px]
+    transform
+    rotate-90
+    origin-top-left
+    rotate-90
+    whitespace-nowrap
+    flex items-center justify-center
+    z-30
+  "
+>
+  No of Ratings
+</div>
+
       {/* TITLE */}
       <div
         className="
@@ -857,43 +878,8 @@ export default function ThematicAnalysisBox() {
         Themes
       </div>
 
-      {/* FIXED — NO OF RATINGS (ROTATED, INSIDE MAIN BOX) */}
-      <div
-        className="
-          absolute
-          top-[230px]     /* Perfect vertical center according to Figma */
-          left-[40px]     /* Matches your 46px Figma left */
-          w-[26px]
-          h-[144px]
-          font-archivo
-          font-normal
-          text-[23.94px]
-          leading-[100%]
-          text-black
-          text-center
-          origin-top-left
-          transform -translate-x-1/2 rotate-90
-          z-20
-          flex items-center justify-center
-        "
-      >
-        No of Ratings
-      </div>
-
-      {/* EMPTY BACKGROUND BOX (MAIN GRAPH AREA) */}
-      <div
-        className="
-          absolute 
-          left-[18px]
-          top-[91px]
-          w-[1329px]
-          h-[398px]
-          z-0
-          bg-white
-          border border-[#E5E5E5]
-          rounded-[4px]
-        "
-      ></div>
+    
+   
 
       {/* CHART OVERLAY */}
       <div
